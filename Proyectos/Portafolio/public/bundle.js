@@ -52,8 +52,8 @@ const datos = [
 	{
 		id: '1',
 		titulo: 'Trabajo #1',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		texto: ' ',
+		fecha: ' 2023',
 	},
 	{
 		id: '2',
@@ -127,9 +127,6 @@ ventanaTrabajos.querySelector('.ventana__overlay').addEventListener('click', (e)
 });
 
 const slider = document.getElementById('slider');
-
-// Codepen fuente del slider:
-// https://codepen.io/kellyex/pen/KKwwdYg?editors=0010
 
 // Variable que guarda el estado de si tenemos el click presionado.
 let clickPresionado = false;
